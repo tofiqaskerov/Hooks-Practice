@@ -3,3 +3,6 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background: linear-gradient(  #00f260, #0575e6);
+}

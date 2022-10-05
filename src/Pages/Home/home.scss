@@ -1,3 +1,18 @@
-#card-side{
-    margin-top: 50px;
+.box{
+    margin: 50px 0px;
+    .card{
+        .hidden-img{
+         overflow: hidden;
+         .img-con{
+             width: 100%;
+             transition: .3s ease;
+         
+             &:hover{
+                 transform: scale(1.2);
+             }
+        }
+        
+        }
+     }
 }
+
